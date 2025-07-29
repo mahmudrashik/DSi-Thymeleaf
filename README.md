@@ -4,7 +4,6 @@
 
 A simple CRUD (Create, Read, Update, Delete) web application built using Spring Boot, Thymeleaf, and PostgreSQL. It allows users to manage tutorials with full database operations.
 
-![Application Screenshot](screenshot.png)
 
 ## Features
 
@@ -67,7 +66,8 @@ Access at: http://localhost:8080
 
 Screenshots 
 
-![ADD_TUTORIALS Screenshot](Screenshot 2025-07-29 214511.png)
+![image_alt](https://github.com/mahmudrashik/DSi-Thymeleaf/blob/849afb96843e07909b7696febca037ef2d4b76af/Screenshot%202025-07-29%20214511.png)
+![ADD_TUTORIALS Screenshot]([Screenshot 2025-07-29 214511.png](https://github.com/mahmudrashik/DSi-Thymeleaf/blob/849afb96843e07909b7696febca037ef2d4b76af/Screenshot%202025-07-29%20214511.png))
 ![VIEW_TUTORIALS Screenshot](Screenshot 2025-07-29 214809.png)
 ![Database Screenshot]([Screenshot 2025-07-29 214833.png](https://github.com/mahmudrashik/DSi-Thymeleaf/blob/Rashik/Screenshot%202025-07-29%20214833.png))
 
