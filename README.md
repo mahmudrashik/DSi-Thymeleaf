@@ -67,7 +67,7 @@ spring.jpa.hibernate.ddl-auto=update
 
 4. Access the application at: http://localhost:8080
 
-   5. Usage
+5. Usage
 - View all tutorials: Navigate to /tutorials
 - Add new tutorial: Click "Add Tutorial" or go to /tutorials/new
 - Edit tutorial: Click "Edit" button
