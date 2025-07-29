@@ -58,39 +58,22 @@ bash
 mvn spring-boot:run
 Access at: http://localhost:8080
 
-Usage
-View all tutorials: Navigate to /tutorials
+4. Usage
+-View all tutorials: Navigate to /tutorials
+-Add new tutorial: Click "Add Tutorial" or go to /tutorials/new
+-Edit tutorial: Click "Edit" button
+-Delete tutorial: Click "Delete" button (with confirmation)
+-Search: Use the search box
 
-Add new tutorial: Click "Add Tutorial" or go to /tutorials/new
+Screenshots 
+![ADD_TUTORIALS Screenshot](Screenshot 2025-07-29 214511.png)
+![VIEW_TUTORIALS Screenshot](Screenshot 2025-07-29 214809.png)
+![Database Screenshot](Screenshot 2025-07-29 214833.png)
 
-Edit tutorial: Click "Edit" button
 
-Delete tutorial: Click "Delete" button (with confirmation)
-
-Search: Use the search box
-
-Project Structure
-text
-src/
-├── main/
-│   ├── java/
-│   │   └── com/example/demo/
-│   │       ├── controller/
-│   │       ├── model/
-│   │       ├── repository/
-│   │       └── DemoApplication.java
-│   ├── resources/
-│   │   ├── static/
-│   │   ├── templates/
-│   │   └── application.properties
-└── test/
 Contributing
 Fork the project
-
 Create your feature branch (git checkout -b feature/your-feature)
-
 Commit changes (git commit -m 'Add feature')
-
 Push to branch (git push origin feature/your-feature)
-
 Open Pull Request
