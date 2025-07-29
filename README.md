@@ -48,8 +48,11 @@ A simple CRUD (Create, Read, Update, Delete) web application built using Spring 
 
 properties
 spring.datasource.url=jdbc:postgresql://localhost:5432/demo
+
 spring.datasource.username=your-username
+
 spring.datasource.password=your-password
+
 spring.jpa.hibernate.ddl-auto=update
 
 3. Build and run:
@@ -66,10 +69,15 @@ Access at: http://localhost:8080
 
 Screenshots 
 
+ADD Tutorial
 ![image_alt](https://github.com/mahmudrashik/DSi-Thymeleaf/blob/849afb96843e07909b7696febca037ef2d4b76af/Screenshot%202025-07-29%20214511.png)
-![ADD_TUTORIALS Screenshot]([Screenshot 2025-07-29 214511.png](https://github.com/mahmudrashik/DSi-Thymeleaf/blob/849afb96843e07909b7696febca037ef2d4b76af/Screenshot%202025-07-29%20214511.png))
-![VIEW_TUTORIALS Screenshot](Screenshot 2025-07-29 214809.png)
-![Database Screenshot]([Screenshot 2025-07-29 214833.png](https://github.com/mahmudrashik/DSi-Thymeleaf/blob/Rashik/Screenshot%202025-07-29%20214833.png))
+
+View Tutorial
+![image_alt](https://github.com/mahmudrashik/DSi-Thymeleaf/blob/48f87d1d2c2ba58093e3d45289480b11554f70d4/Screenshot%202025-07-29%20214809.png)
+
+Database Pic
+![image_alt](https://github.com/mahmudrashik/DSi-Thymeleaf/blob/48f87d1d2c2ba58093e3d45289480b11554f70d4/Screenshot%202025-07-29%20214833.png)
+
 
 
 Contributing
