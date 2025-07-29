@@ -66,9 +66,10 @@ Access at: http://localhost:8080
 -Search: Use the search box
 
 Screenshots 
+
 ![ADD_TUTORIALS Screenshot](Screenshot 2025-07-29 214511.png)
 ![VIEW_TUTORIALS Screenshot](Screenshot 2025-07-29 214809.png)
-![Database Screenshot](Screenshot 2025-07-29 214833.png)
+![Database Screenshot]([Screenshot 2025-07-29 214833.png](https://github.com/mahmudrashik/DSi-Thymeleaf/blob/Rashik/Screenshot%202025-07-29%20214833.png))
 
 
 Contributing
