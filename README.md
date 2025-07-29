@@ -40,7 +40,7 @@ A simple CRUD (Create, Read, Update, Delete) web application built using Spring 
    ```bash
    git clone https://github.com/your-username/thymeleaf-springboot-crud.git
    cd thymeleaf-springboot-crud
-
+   
 2. Database setup:
 - Create a PostgreSQL database named demo
 
@@ -56,33 +56,10 @@ spring.datasource.password=your-password
 spring.jpa.hibernate.ddl-auto=update
 
 3. Build and run:
-bash
-mvn spring-boot:run
-Access at: http://localhost:8080
-
-4. Usage
--View all tutorials: Navigate to /tutorials
--Add new tutorial: Click "Add Tutorial" or go to /tutorials/new
--Edit tutorial: Click "Edit" button
--Delete tutorial: Click "Delete" button (with confirmation)
--Search: Use the search box
-
-Screenshots 
-
-ADD Tutorial
-![image_alt](https://github.com/mahmudrashik/DSi-Thymeleaf/blob/849afb96843e07909b7696febca037ef2d4b76af/Screenshot%202025-07-29%20214511.png)
-
-View Tutorial
-![image_alt](https://github.com/mahmudrashik/DSi-Thymeleaf/blob/48f87d1d2c2ba58093e3d45289480b11554f70d4/Screenshot%202025-07-29%20214809.png)
-
-Database Pic
-![image_alt](https://github.com/mahmudrashik/DSi-Thymeleaf/blob/48f87d1d2c2ba58093e3d45289480b11554f70d4/Screenshot%202025-07-29%20214833.png)
+   
+ ```bash
+ mvn spring-boot:run
 
 
 
-Contributing
-Fork the project
-Create your feature branch (git checkout -b feature/your-feature)
-Commit changes (git commit -m 'Add feature')
-Push to branch (git push origin feature/your-feature)
-Open Pull Request
+
