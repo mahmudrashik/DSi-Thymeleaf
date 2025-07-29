@@ -1,83 +1,96 @@
-Thymeleaf Spring Boot CRUD Application
+# Thymeleaf Spring Boot CRUD Application
 
-Project Overview
+## Project Overview
 
-This is a simple CRUD (Create, Read, Update, Delete) web application built using Spring Boot, Thymeleaf, and PostgreSQL. It allows users to manage tutorials by performing basic operations like adding, editing, viewing, searching, and deleting tutorial entries.
+A simple CRUD (Create, Read, Update, Delete) web application built using Spring Boot, Thymeleaf, and PostgreSQL. It allows users to manage tutorials with full database operations.
 
-Features
+![Application Screenshot](screenshot.png)
 
-Create: Add new tutorials with title, description, level, and published status.
+## Features
 
-Read: View tutorials in a neatly organized table.
+- **Create**: Add new tutorials with title, description, level, and published status
+- **Read**: View all tutorials in a paginated table
+- **Update**: Modify existing tutorial information
+- **Delete**: Remove tutorials with confirmation
+- **Search**: Find tutorials by keyword
+- **Responsive Design**: Works on all device sizes
 
-Update: Edit existing tutorial information.
+## Technology Stack
 
-Delete: Remove tutorials with confirmation prompts.
+- **Backend**: 
+  - Java 17+
+  - Spring Boot 3.x
+  - Spring Data JPA
+- **Frontend**:
+  - Thymeleaf
+  - Bootstrap 5
+- **Database**: PostgreSQL
+- **Build Tool**: Maven
 
-Search: Quickly find tutorials using keyword search.
+## Installation
 
-Tech Stack
+### Prerequisites
 
-Backend: Java, Spring Boot
+- Java 17 or later
+- Maven 3.6+
+- PostgreSQL 12+
 
-Frontend: Thymeleaf, Bootstrap 5
+### Setup Instructions
 
-Database: PostgreSQL
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/thymeleaf-springboot-crud.git
+   cd thymeleaf-springboot-crud
 
-Tools: Maven
+2. Database setup:
+- Create a PostgreSQL database named demo
 
-Installation
+-Update connection details in src/main/resources/application.properties:
 
-Prerequisites
-
-Java 17 or later
-
-Maven
-
-PostgreSQL
-
-Steps
-
-Clone the repository:
-
-git clone https://github.com/your-username/thymeleaf-springboot-crud.git
-
-Navigate to the project directory:
-
-cd thymeleaf-springboot-crud
-
-Configure PostgreSQL:
-
-Create a database named demo.
-
-Update the database credentials in application.properties:
-
+properties
 spring.datasource.url=jdbc:postgresql://localhost:5432/demo
 spring.datasource.username=your-username
 spring.datasource.password=your-password
+spring.jpa.hibernate.ddl-auto=update
 
-Build and run the application:
-
+3. Build and run:
+bash
 mvn spring-boot:run
-
-Access the application:
-
-Go to your web browser and open http://localhost:8080.
+Access at: http://localhost:8080
 
 Usage
+View all tutorials: Navigate to /tutorials
 
-View Tutorials: Navigate to /tutorials
+Add new tutorial: Click "Add Tutorial" or go to /tutorials/new
 
-Add Tutorial: Navigate to /tutorials/new
+Edit tutorial: Click "Edit" button
 
-Edit or Delete Tutorials: Use respective buttons in tutorials listing page
+Delete tutorial: Click "Delete" button (with confirmation)
 
-Screenshots
+Search: Use the search box
 
-
-
-
-
+Project Structure
+text
+src/
+├── main/
+│   ├── java/
+│   │   └── com/example/demo/
+│   │       ├── controller/
+│   │       ├── model/
+│   │       ├── repository/
+│   │       └── DemoApplication.java
+│   ├── resources/
+│   │   ├── static/
+│   │   ├── templates/
+│   │   └── application.properties
+└── test/
 Contributing
+Fork the project
 
-Contributions are welcome! Please create a pull request or open an issue for any suggestions or bug fixes.
+Create your feature branch (git checkout -b feature/your-feature)
+
+Commit changes (git commit -m 'Add feature')
+
+Push to branch (git push origin feature/your-feature)
+
+Open Pull Request
